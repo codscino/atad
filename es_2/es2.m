@@ -1,3 +1,7 @@
+% still missing to set correct dth to have just the arc and not the whole
+% transfer orbit
+
+
 %% start
 % Julian days conversion
 t1 = date2mjd2000([2016, 3, 14, 12, 0, 0]); %earth time
