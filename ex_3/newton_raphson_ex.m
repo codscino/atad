@@ -39,6 +39,4 @@ end
 %% final results
 mu = getAstroConstants('Earth', 'Mu');
 tol = 10^(-6);
-[E,niteration] = newton_raphson(rp,ra,mu,dt,tol);
-E
-niteration
+[E,niteration] = newton_raphson(rp,ra,mu,dt,tol)
